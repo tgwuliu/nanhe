@@ -47,7 +47,24 @@ body > .navbar .brand:hover {
   text-decoration: none;
   text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.4);
 }
+body > .navbar .brand:hover {
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.4);
+}
 
+body > .navbar .navbar-inner{
+			min-height: 50px;
+}
+body > .navbar .brand {
+    line-height: 40px;
+    font-size:20px;
+}
+
+body > .navbar .nav > li {
+    line-height: 40px;
+    font-size:20px;
+    font-weight: 200;
+}
 
 /* Sections
 -------------------------------------------------- */
